@@ -1,0 +1,3 @@
+display_name: ChatGPT Image Skill
+short_description: Generate and extract images through the ChatGPT web app.
+default_prompt: Use ChatGPT to generate images or extract the newest result.

@@ -1,0 +1,26 @@
+{
+  "name": "chatgpt-image-skill",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "mcp": "node src/mcp-server.js",
+    "daemon": "node src/daemon/server.js"
+  },
+  "keywords": [
+    "chatgpt",
+    "image-generation",
+    "mcp",
+    "puppeteer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Generate images through the ChatGPT web app with a daemon-backed MCP skill.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "puppeteer-core": "^24.39.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "zod": "^3.24.1"
+  }
+}
